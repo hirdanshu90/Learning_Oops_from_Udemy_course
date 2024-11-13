@@ -2,7 +2,7 @@ package com.example.oops_concepts;
 
 import java.util.ArrayList;
 
-// For hiding internal implementations, can be done in 2 ways::::::
+// -------------------For hiding internal implementations, can be done in 2 ways ----------
 // first by Interfaces OR by making the class Abstract
 // Can't make the object of a abstract class.
 // Useful for security reasons, modularity etc.

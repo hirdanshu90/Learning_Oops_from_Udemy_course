@@ -11,12 +11,13 @@ class BankAccount {
         if (this.username.equals(username) && this.password.equals(password)) {
             return balance;
 
-        } else
+        } 
+        else
             return 0.0;
     }
 }
 
-public class app {
+public class App {
     public static void main(String[] args) {
         BankAccount acc = new BankAccount();
         System.out.println(acc.getwithdrawalBalance("basic", "password"));
